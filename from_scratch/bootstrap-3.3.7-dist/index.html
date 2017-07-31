@@ -11,6 +11,10 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,9 +25,10 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-div">
       <div class="container-fluid" >
         <div class="navbar-header">
+
           <!-- The collapsed navbar button -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -36,78 +41,115 @@
           </a>
         </div>
 
+        <!-- The Buttons on the Navigation Bar -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Cabins<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Check Availablility</a></li>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Meet the Regulars</a></li>
+            <li><a class="navbar-button" href="#">Cabins</a></li>
+            <li><a class="navbar-button" href="#">Check Availablility</a></li>
+            <li><a class="navbar-button" href="#">Activities</a></li>
+            <li><a class="navbar-button" href="#">Meet the Regulars</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-      <!-- Keep the Video full width, so outside the container -->
-      <div class="row">
-        <div class="col-lg-12">
-          <video  width="100%" height="auto" autoplay loop muted>
-            <source src="assests/sunset.mp4" type="video/mp4">
-          </video>
-        </div>
+    <!-- Keep the Video full width, so outside the container -->
+    <div class="row">
+      <div class="col-lg-12">
+        <video  width="100%" height="auto" autoplay loop muted>
+          <source src="assests/sunset.mp4" type="video/mp4">
+        </video>
       </div>
+    </div>
+
+
+    <div class="content-section-title">
+  
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/nelsons.png" alt="Campgrounds Image 1" width="100%">
+          </div>
+          <div class="col-sm-6">
+            <h2> Welcome to the Nelson's Cottages </h2>
+            <p> Welcome to the Nelson's Cottages. This is a short description telling the user about why the nelsons's cottages are a family favorite </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>    
+
+
+    <div class="content-section">
 
       <div class="container">
 
-      <div class="row">
-        <div class="col-sm-6">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/nelsons.png" alt="Campgrounds Image 1" width="100%">
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Campgrounds Image 1">
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Campgrounds Image 2">
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/vermont.jpg" alt="Campgrounds Image 3">
+          </div>
         </div>
-        <div class="col-sm-6">
-          <h2> Welcome to the Nelson's Cottages </h2>
-          <p> Welcome to the Nelson's Cottages. This is a short description telling the user about why the nelsons's cottages are a family favorite </>
-        </div>
-      </div>     
-       <div class="row">
-        <div class="col-sm-4">
-          <img class="img-rounded" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Campgrounds Image 1">
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Campgrounds Image 2">
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/vermont.jpg" alt="Campgrounds Image 3">
-        </div>
+
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <h2> Cabins </h2>
-          <p> Short description of the cabins mentioning the the differences between housekeeping and over nighters </>
-        </div>
-      </div>     
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Cabins Image 1">
-        </div>
-        <div class="col-lg-4">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Cabins Image 2">
-        </div>
-        <div class="col-lg-4">
-          <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/vermont.jpg" alt="Cabins Image 3">
-        </div>
+
+    </div>
+
+
+    <div class="content-section-title">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2> Cabins </h2>
+            <p> Short description of the cabins mentioning the the differences between housekeeping and over nighters </p>
+          </div>
+        </div>   
+
       </div>
+
+    </div>
+
+
+    <div class="content-section">
+  
+      <div class="container">
+
         <div class="row">
           <div class="col-lg-4">
-            <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Cabins Image 4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Cabins Image 1">
           </div>
           <div class="col-lg-4">
-            <img class="img-responsive" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Cabins Image 5">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Cabins Image 2">
           </div>
           <div class="col-lg-4">
-            <img class="img-responsive" src="" alt="View All">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/vermont.jpg" alt="Cabins Image 3">
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/ohio.jpg" alt="Cabins Image 4">
+          </div>
+          <div class="col-lg-4">
+            <img class="img-responsive cabin-images" src="file:///C:/Users/aaron/Projects/nelsons_website/from_scratch/bootstrap-3.3.7-dist/assests/florida.jpg" alt="Cabins Image 5">
+          </div>
+          <div class="col-lg-4">
+            <img class="img-responsive cabin-images" src="" alt="View All">
+          </div>
+        </div>
+
       </div>
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
