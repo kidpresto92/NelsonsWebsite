@@ -2529,6 +2529,7 @@ if (jQuery) {
         if (bottom > scrollTop && top < scrollTop + windowHeight) {
           $img.css('transform', "translate3D(-50%," + parallax + "px, 0)");
         }
+
       }
 
 
@@ -2553,9 +2554,9 @@ if (jQuery) {
         if (initial) {
           $img.css('display', 'block');
         }
-        if (bottom > scrollTop && top < scrollTop + windowHeight) {
+        //if (bottom > scrollTop && top < scrollTop + windowHeight) {
           $img.css('transform', "translate3D(-50%," + parallax + "px, 0)");
-        }
+        //}
       }
 
       // Wait for image load
@@ -2566,8 +2567,8 @@ if (jQuery) {
       });
 
    	  // Wait for video load
-      $this.children("video").one("load", function () {
-        updateParallaxVideo(true);
+      $this.children("video").one("play", function () {
+        updateParallaxVideo(false);
       }).each(function () {
         if (this.complete) $(this).trigger("load");
       });
