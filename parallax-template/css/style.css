@@ -10,13 +10,15 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
+body .nelsons-background{
+  background: #fff9c4; /*yellow lighten-4*/
+}
 p {
   line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #25a657;
 }
 
 .parallax-container {
@@ -56,7 +58,19 @@ footer.page-footer {
   margin: 0;
 }
 
-.contact-us-map {
-    background-image: url("assets/map.png");
-    background-repeat: no-repeat;
+.primary-background{
+  background-color: #25a657;
+}
+
+.contact-panel{
+  background-color: rgba(100, 100, 100, .3);
+  padding: 25px;
+  width: 250px;
+}
+.contact-button-anchor{
+  display: block;
+}
+
+.contact-button{
+  width: 200px;
 }
