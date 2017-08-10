@@ -60,27 +60,27 @@ footer.page-footer {
   margin: 0;
 }
 
-.primary-background{
+.primary-background {
   background-color: #25a657;
 }
 
-.contact-panel{
+.contact-panel {
   background-color: rgba(100, 100, 100, .3);
   padding: 25px;
   width: 250px;
 }
 
-.contact-panel_mobile{
+.contact-panel_mobile {
   background-color: rgb(255,245,157);
   padding: 25px;
   width: 100%;
 }
 
-.contact-button-anchor{
-  display: block;
+.contact-button-anchor {
+  display: block; 
 }
 
-.contact-button{
+.contact-button {
   width: 200px;
 }
 
@@ -88,4 +88,10 @@ footer.page-footer {
   margin-right: 15px;
   height: 18px;
   width: 18px;
+}
+
+.nelsons-logo {
+  margin-top: 8px;
+  height: 48px;
+  width: 48px;
 }
