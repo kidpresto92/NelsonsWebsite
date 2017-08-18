@@ -6,17 +6,33 @@
  * Made By MaterializeCSS.com
  */
 
+
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
 body {
-  background-color: #fff9c4; /*yellow lighten-4*/
+  background-color: #FFF59D; /*yellow lighten-4*/
+  padding-left: 300px;
+}
+
+.nelsons_side-nav{
+  background-color: #3aae67;
 }
 
 p {
   line-height: 2rem;
+}
+
+header, main {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
 }
 
 .button-collapse {
@@ -89,6 +105,16 @@ footer.page-footer {
   height: 18px;
   width: 18px;
 }
+
+/*i:before {
+    content: "";
+    display: block;
+    background: url("../assets/facebook_icon.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}*/
 
 .nelsons-logo {
   margin-top: 8px;
