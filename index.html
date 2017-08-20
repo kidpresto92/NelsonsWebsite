@@ -14,8 +14,10 @@
 </head>
 <body class="nelsons_background">
 	<ul id="side-nav" class="side-nav fixed nelsons_side-nav collapsible" data-collapsible="accordion">
-		<div class="container section center">
-			<img class="center-align" src="assets/logo.png" alt="assets/logo.png" width="50%" height="auto" >
+		<div class="container center">
+			<div class="section">
+				<img class="center-align" src="assets/logo.png" alt="assets/logo.png" width="50%" height="auto" >
+			</div>
 		</div>
 
 		<!-- Home -->
@@ -42,6 +44,7 @@
 					<li><a href=#>History</a></li>
 					<li><a href=#>Things to do</a></li>
 					<li><a href=#>Places to eat</a></li>					
+					<li><a href=#>Wildlife</a></li>					
 					<li><a href=#>Nearby towns</a></li>
 				</ul>
 			</div>
@@ -69,11 +72,20 @@
 				<a class="black-text">Check Availability</a>
 			</div>		
 		</li>
-
 	</ul>
 
+	<!-- <div id="top-fixed-navbar" class="navbar navbar-default navbar-fixed-top show-on-medium-and-down"> -->
+	<div id="top-fixed-navbar" class="top-navbar show-on-medium-and-down hide-on-large-only valign-wrapper">
+
+		<div class="nav-wrapper">
+			<img src="assets/logo.png" alt="assets/logo.png" width="24px" height="24px">
+			<a href="#" data-activates="side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</div>
+
 	<div class="main">
-		<div id="video" class="parallax-container">
+
+		<div id="video">
 			<div>
 				<video  width="100%" height="auto" autoplay loop muted>
 					<source src="sunset.mp4" type="video/mp4">
@@ -155,26 +167,25 @@
 			</div>
 		</div>
 
+
 		<!-- About the Owners Section   -->
-		<div id="aboutTheOwners" class="container">
-			<div class="section">
-				<div class="row valign-wrapper">
-					<div class="col s12 push-s12 m12 push-m12 l6">
-						<div class="section row">
-							<div class="container center">
-								<img class="circle responsive-img" src="assets/new_jersey.jpg" alt="Owner's Picture">
-							</div>
+		<div class="container">
+			<div class="row section">
+				<div class="col s12 m12 l5 hoverable waves-effect">
+					<div class="section row">
+						<div class="container center">
+							<img class="circle responsive-img" src="assets/new_jersey.jpg" alt="Owner's Picture">
 						</div>
 					</div>
-					<div class="col s12 pull-s12 m12 pull-m12 l6">
-						<div class="section row">
+				</div>
+				<div class="col s12 m12 l5 offset-l2 hoverable waves-effect">
+					<div class="section row">
+						<div class="container center">
+							<h2>About the owners</h2>
+						</div>
+						<div class="row">
 							<div class="container center">
-								<h2>About the owners</h2>
-							</div>
-							<div class="row">
-								<div class="container center">
-									<p>How long the owners have lived there, about the family and pets, etc</p>
-								</div>
+								<p>How long the owners have lived there, about the family and pets, etc</p>
 							</div>
 						</div>
 					</div>

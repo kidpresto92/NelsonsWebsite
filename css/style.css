@@ -13,25 +13,37 @@ nav .brand-logo {
 }
 
 body {
-  background-color: #FFF59D; /*yellow lighten-4*/
-  padding-left: 300px;
+    background-color: #FFF59D; /*yellow lighten-4*/
+}
+
+.top-navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .nelsons_side-nav{
-  background-color: #3aae67;
+  background-color: #25a657;
 }
 
 p {
   line-height: 2rem;
 }
 
-header, main {
-  padding-left: 300px;
-}
 
 @media only screen and (max-width : 992px) {
-  header, main, footer {
+  header, body {
     padding-left: 0;
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  header, body {
+    padding-left: 300px; /* Add left margin to avoid content overlay of sidenav */
+    margin-top: 0px; 
   }
 }
 
@@ -45,9 +57,10 @@ header, main {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -81,6 +94,7 @@ footer.page-footer {
 }
 
 .contact-panel {
+  position: absolute;
   background-color: rgba(100, 100, 100, .3);
   padding: 25px;
   width: 250px;
@@ -105,16 +119,6 @@ footer.page-footer {
   height: 18px;
   width: 18px;
 }
-
-/*i:before {
-    content: "";
-    display: block;
-    background: url("../assets/facebook_icon.png") no-repeat;
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 0 6px 0 0;
-}*/
 
 .nelsons-logo {
   margin-top: 8px;
