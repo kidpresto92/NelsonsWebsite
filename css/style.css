@@ -26,6 +26,21 @@ body {
 
 .nelsons_side-nav{
   background-color: #25a657;
+  display: block;
+}
+
+.cabins_main{
+  background-image: url(../assets/background4.jpg);
+  background-attachment: fixed;
+  padding: 80px;
+}
+
+.cabin_card{
+  margin: 10px;
+}
+
+.cabin_container{
+  background-color: white;
 }
 
 p {
@@ -98,6 +113,8 @@ footer.page-footer {
   background-color: rgba(100, 100, 100, .3);
   padding: 25px;
   width: 250px;
+  left:100px;
+  top :50px;
 }
 
 .contact-panel_mobile {
@@ -114,10 +131,34 @@ footer.page-footer {
   width: 200px;
 }
 
+.material-facebook-div{
+  margin-bottom: 0px;
+}
+
 .material-facebook-button {
-  margin-right: 15px;
-  height: 18px;
-  width: 18px;
+  padding: 0px, 25px;
+  height: 36px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.material-facebook-icon {
+  margin-right: 46px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+.navbar-list-item{
+  display: block;
+}
+
+.navbar-anchor{
+  display:block;
+  height:100%;
+  width:100%;
 }
 
 .nelsons-logo {
