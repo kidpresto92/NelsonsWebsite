@@ -27,20 +27,23 @@ body {
 .nelsons_side-nav{
   background-color: #25a657;
   display: block;
+  z-index: 1000;
 }
 
 .cabins_main{
   background-image: url(../assets/background4.jpg);
   background-attachment: fixed;
-  padding: 80px;
+  background-size: 100%;
 }
 
 .cabin_card{
-  margin: 10px;
+  margin:20px;
 }
 
-.cabin_container{
-  background-color: white;
+.cabins_page_container{
+  background: rgba(255, 255, 255, 0.89);
+  padding: 20px;
+  margin: 40px;
 }
 
 p {
@@ -57,7 +60,7 @@ p {
 
 @media only screen and (min-width: 993px) {
   header, body {
-    padding-left: 300px; /* Add left margin to avoid content overlay of sidenav */
+    padding-left: 250px; /* Add left margin to avoid content overlay of sidenav */
     margin-top: 0px; 
   }
 }
