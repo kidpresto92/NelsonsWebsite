@@ -22,6 +22,30 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    height: 50px;
+}
+
+.top-nav-logo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 4px;
+    margin-top: 4px;
+    overflow: hidden;
+    width: 42px;
+    height: 42px;
+}
+
+.top-nav-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: 4px;
+    margin-top: 4px;
+    overflow: hidden;
+    width: 42px;
+    height: 42px;
+    font-size: 42px;
 }
 
 .nelsons_side-nav{
@@ -162,6 +186,16 @@ footer.page-footer {
   display:block;
   height:100%;
   width:100%;
+}
+
+.navbar-external-page{
+  background-color: #25a657;
+  color: black;
+}
+
+.navbar-internal-page{
+  background-color: #1a7a3f;
+  color: white;
 }
 
 .nelsons-logo {
