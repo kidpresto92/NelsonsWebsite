@@ -38,7 +38,7 @@ body {
 
 .top-nav-menu {
     position: fixed;
-    left: 0;
+    left: 12px;
     top: 0;
     margin-left: 4px;
     overflow: hidden;
