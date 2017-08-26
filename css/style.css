@@ -51,6 +51,7 @@ body {
 .nelsons_side-nav{
   background-color: #25a657;
   display: block;
+  border-style: none;
   z-index: 1000;
 }
 
