@@ -11,7 +11,7 @@
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-	<div id="side-nav" class="side-nav fixed nelsons_side-nav collapsible pull-right" data-collapsible="accordion">
+	<div id="side-nav" class="side-nav fixed nelsons_side-nav  pull-right" data-collapsible="accordion">
 
 		<div class="section center">
 			<a href="index.html">
@@ -19,7 +19,7 @@
 			</a>
 		</div>
 
-		<ul>
+		<ul class="collapsible">
 
 			<!-- Home -->
 			<li class=active>
@@ -57,16 +57,16 @@
 		</ul>
 	</div>
 
-	<div id="top-fixed-navbar" class="top-navbar show-on-medium-and-down hide-on-large-only valign-wrapper">
+</head>
 
+<body class="nelsons_background">
+
+	<nav id="top-fixed-navbar" class="top-navbar navbar-fixed show-on-medium-and-down hide-on-large-only valign-wrapper">
 		<div class="nav-wrapper">
 			<img class="top-nav-logo" src="assets/logo.png" alt="assets/logo.png">
 			<a href="#" data-activates="side-nav" class="button-collapse top-nav-menu"><i class="material-icons top-nav-menu">menu</i></a>
 		</div>
-	</div>
-</head>
-
-<body class="nelsons_background">
+	</nav>
 
 	<div class="main">
 
@@ -119,7 +119,7 @@
 			<div class="row section">
 				<div class="col s12 m12 l5 hoverable waves-effect">
 					<div class="section">
-						<div class="container">
+						<div class="container center">
 							<img class="circle responsive-img" src="assets/new_jersey.jpg" alt="Housekeeping Cabin">
 						</div>
 						<div class="row">
@@ -131,7 +131,7 @@
 					</div>
 				</div>
 				<div class="col s12 m12 l5 offset-l2 hoverable waves-effect">
-					<div class="container">
+					<div class="container center">
 						<img class="circle responsive-img" src="assets/new_jersey.jpg" alt="Overnight Cabin">
 					</div>
 					<div class="row">
@@ -232,28 +232,26 @@
 		<div class="col s12 show-on-small hide-on-med-and-up">
 			<div class="section">
 				<div class="container">
-					<div class="contact-panel_mobile center z-depth-5">
-						<div class="row center contact-button-anchor">
-							<a href="tel://3153574111" class="waves-effect waves-light btn contact-button" target="_blank">
-								<i class="material-icons left">phone</i>phone
-							</a>
-						</div>
-						<div class="row center contact-button-anchor">
-							<a href="mailto://Nelsons@frontiernet.net" class="waves-effect waves-light btn contact-button" target="_blank">
-								<i class="material-icons left">email</i>email
-							</a>
-						</div>
-						<div class="row center contact-button-anchor" >
-							<a href="https://www.google.com/maps/dir/Nelson's+Cottages/@43.7549369,-74.7952987,17z/data=!3m1!4b1!4m5!3m4!1s0x89df48b249221ba1:0xf592ed548740b899!8m2!3d43.754933!4d-74.79311" class="waves-effect waves-light btn contact-button" target="_blank">
-								<i class="material-icons left">directions</i>directions
-							</a>
-						</div> 
-						<div class="row center contact-button-anchor" >
-							<a href="https://www.facebook.com/pg/NelsonsCottages/photos/?ref=page_internal" class="waves-effect waves-light btn contact-button" target="_blank">
-								<i class="material-icons left"></i>Facebook
-							</a>
-						</div> 
+					<div class="s6 center contact-button-anchor">
+						<a href="tel://3153574111" class="waves-effect waves-light btn contact-button" target="_blank">
+							<i class="material-icons left">phone</i>phone
+						</a>
 					</div>
+					<div class="s6 center contact-button-anchor">
+						<a href="mailto://Nelsons@frontiernet.net" class="waves-effect waves-light btn contact-button" target="_blank">
+							<i class="material-icons left">email</i>email
+						</a>
+					</div>
+					<div class="s6 center contact-button-anchor" >
+						<a href="https://www.google.com/maps/dir/Nelson's+Cottages/@43.7549369,-74.7952987,17z/data=!3m1!4b1!4m5!3m4!1s0x89df48b249221ba1:0xf592ed548740b899!8m2!3d43.754933!4d-74.79311" class="waves-effect waves-light btn contact-button" target="_blank">
+							<i class="material-icons left">directions</i>directions
+						</a>
+					</div> 
+					<div class="s6 center contact-button-anchor" >
+						<a href="https://www.facebook.com/pg/NelsonsCottages/photos/?ref=page_internal" class="waves-effect waves-light btn contact-button" target="_blank">
+							<i class="material-icons left"></i>Facebook
+						</a>
+					</div> 
 				</div>
 			</div>
 		</div>

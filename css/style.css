@@ -22,7 +22,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    height: 50px;
+    height: 56px;
 }
 
 .top-nav-logo {
@@ -32,8 +32,8 @@ body {
     margin-right: 4px;
     margin-top: 4px;
     overflow: hidden;
-    width: 42px;
-    height: 42px;
+    width: 46px;
+    height: 46px;
 }
 
 .top-nav-menu {
@@ -41,11 +41,12 @@ body {
     left: 0;
     top: 0;
     margin-left: 4px;
-    margin-top: 4px;
     overflow: hidden;
-    width: 42px;
-    height: 42px;
-    font-size: 42px;
+    width: 46px;
+    height: 46px;
+    line-height:46px;
+    font-size: 56px;
+    display: block;
 }
 
 .nelsons_side-nav{
@@ -89,6 +90,13 @@ p {
     margin-top: 0px; 
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .main{
+    padding-top: : 50px;
+  }
+}
+
 
 .button-collapse {
   color: #25a657;
@@ -143,12 +151,6 @@ footer.page-footer {
   width: 250px;
   left:100px;
   top :50px;
-}
-
-.contact-panel_mobile {
-  background-color: rgb(255,245,157);
-  padding: 25px;
-  width: 100%;
 }
 
 .contact-button-anchor {
