@@ -57,13 +57,9 @@ body {
 }
 
 .cabins_main{
-  background-image: url(../assets/background4.jpg);
+  background-image: url(../assets/backgrounds/lake4.jpg);
   background-attachment: fixed;
   background-size: 100%;
-}
-
-.cabin_card{
-  /*margin:20px;*/
 }
 
 .cabins_page_container{
@@ -80,7 +76,7 @@ p {
 @media only screen and (max-width : 992px) {
   header, body {
     padding-left: 0;
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
   }
 }
 
@@ -92,8 +88,8 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  .main{
-    padding-top: : 50px;
+  body{
+    padding-top: : 56px;
   }
 }
 
@@ -161,6 +157,10 @@ footer.page-footer {
   width: 200px;
 }
 
+.mobile-contact-button {
+  width: 100%;
+}
+
 .material-facebook-div{
   margin-bottom: 0px;
 }
@@ -205,4 +205,32 @@ footer.page-footer {
   margin-top: 8px;
   height: 48px;
   width: 48px;
+}
+
+.profile-image-login{
+  width: 50%;
+  height: auto;
+}
+
+.login-card{
+  height: 100%;
+  width: auto;
+}
+
+.login-page{
+  height:100vh; 
+}
+
+.login-icon{
+  line-height: inherit;
+}
+
+.cabin-img{
+  width: auto;
+  height: auto;
+  max-height: 200px;
+}
+
+.cabin-image-holder{
+  max-height: 200px;
 }
